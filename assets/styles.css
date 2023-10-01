@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #171717;
+    font-family: sans-serif;
+}
+
+.header-container {
+    display: grid;
+    place-content: center;
+    background-color: #000;
+    height: 8vh;
+}
+
+.nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.nav-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
